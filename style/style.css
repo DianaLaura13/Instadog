@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+header.main{
+  height: 80px;
+  /* background-color: rgb(24, 236, 20); fondo verde a la izquierda*/
+  border: 1px solid rgb(106, 105, 105);
+
+}
+
+.main .logo{
+  width: 30%;
+  height: inherit;
+  /* line-height: va a definir como va a tomar el texto */
+  padding: 20px;
+  font-size: 40px;
+  float: left;
+  /* background-color: rgb(12, 25, 47); fondo azul al centro*/
+}
+
+.logo span{
+  font-size: 40px;
+  /* color: rgb(220, 242, 235); */
+}
+/* This is nav */
+.main nav{
+  height: inherit;
+  /* background-color: rgb(183, 27, 237); fondo morado a la izquierda*/
+  float: right;
+  width: 30%;
+}
+
+/* me refiero al ul */
+.main nav > ul{
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(99, 100, 102); */
+  list-style: none;
+}
+/* me refiero al li */
+.main nav > ul > li{
+  width: 33.33%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
+  float: left;
+  height: inherit;
+
+}
+
+.main nav >ul>li>a:visited{
+  color: rgb(15, 15, 15);
+}
